@@ -31,10 +31,11 @@ function submitFeedback(){
 
 
 };
-// Captura el Botón de Envío en una variable
-const submitButton = document.getElementById("submitBtn");
-// Asigna la función submitFeedback al evento click del botón
-submitButton.onclick = submitFeedback;
+const submitButton = document.getElementById("submitBtn");// Captura el Botón de Envío en una variable
+
+
+submitButton.onclick = submitFeedback; // Asigna la función submitFeedback al evento click del botón
+
 
 // Permitir enviar el formulario al presionar la tecla "Enter" 
 document.addEventListener('keydown', function(event) {
